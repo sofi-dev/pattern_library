@@ -1,0 +1,67 @@
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: none;
+  color: #2b2a2a;
+  line-height: 1.6em;
+  overflow: auto;
+  }
+  
+  .container {
+    display: flex;
+    gap: 50px;
+  }
+  
+  #posts {
+    width: 400px;
+  }
+  
+  i {
+    cursor: pointer;
+  }
+
+  #posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .options {
+    display: flex;
+    gap: 25px;
+  }
+  
+  #msg {
+    color: red;
+  }
+
+  .nav { 
+    background: #ffffff;
+    height: 80px; 
+    width: 100%;
+  }
+  
+  .nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+  }
+  
+  .nav ul li {
+    color: #fff;
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s; 
+  }
+
+  nav ul li:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s;  
+  }
